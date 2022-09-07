@@ -1,8 +1,15 @@
+body {
+  background: #faedcd;
+  color: rgb(59, 59, 59);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 article {
-  border: 1px solid gray;
+  border: 1px solid #ccd5ae;
   margin: 20px;
   padding: 15px;
   border-radius: 7px;
+  background: #fefae0;
 }
 
 .main {
@@ -12,7 +19,19 @@ article {
 }
 
 .liked {
-  background: rgba(172, 255, 47, 0.96);
+  background: #ccd5ae;
   padding: 5px;
+  margin: 0px;
 
+}
+
+.like-button {
+  padding: 3px;
+  border-radius: 7px;
+  border: 1px solid #ccd5ae;
+  background: #e9edc9;
+}
+
+.like-button:hover {
+  background: greenyellow;
 }
